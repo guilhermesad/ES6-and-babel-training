@@ -2,7 +2,8 @@
   "name": "ES6-and-babel-training",
   "version": "1.0.0",
   "scripts": {
-    "print-babel-version": "babel -V"
+    "print-babel-version": "babel -V",
+    "link-grunt-node-modules": "ln -s ../../node_modules babel/grunt/node_modules"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
