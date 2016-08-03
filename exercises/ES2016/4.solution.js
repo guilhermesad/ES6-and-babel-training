@@ -2,7 +2,7 @@ function getUser () {
   console.log("Request initiated...");
   return http.get("/user").then(function(user) {
     console.log("Request complete!");
-    return response;
+    return user;
   });
 }
 
